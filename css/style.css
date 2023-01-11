@@ -21,6 +21,11 @@
   text-rendering: optimizeLegibility;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 h1, h2, h3 {
   font-family: 'Inter';
   text-transform: uppercase;

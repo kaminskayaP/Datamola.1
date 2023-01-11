@@ -94,6 +94,7 @@ a:hover {
 .hero__link-to-slider {
   position: relative;
   align-self: flex-end;
+  margin-bottom: 10px;
   padding-right: 26px;
   transition: border-color .3s ease-in;
 }
@@ -210,7 +211,11 @@ a:hover {
   .hero__img {
     max-width: 170px;
   }
-
+  
+  .hero__link-to-slider {
+    align-self: flex-start;
+  }
+  
   .hero__paragraph {
     width: 100%;
   }

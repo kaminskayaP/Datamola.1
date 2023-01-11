@@ -47,6 +47,10 @@ a:hover {
   border-color: var(--link-color-hover);
 }
 
+.slider {
+  padding-top: 30px;
+}
+
 .slider-container {
   margin: 30px auto;
   max-width: 800px;
@@ -95,4 +99,35 @@ a:hover {
 .slider__right-arrow {
   margin-left: 53px;
   background-image: url('/images/right-arrow.svg');
+}
+
+
+@media (max-width: 500px) {
+  .slider__left-arrow,
+  .slider__right-arrow {
+    padding-top: 205px;
+  }
+
+  .slider__left-arrow {
+    margin-right: 13px;
+  }
+
+  .slider__right-arrow {
+    margin-left: 13px;
+  }
+
+  .slider__img-container {
+    width: 250px;
+    flex-wrap: wrap;
+  }
+
+  .slider__img {
+    display: none;
+  }
+
+  .slider__img.big {
+    display: block;
+    height: 250px;
+    width: 250px;
+  }
 }

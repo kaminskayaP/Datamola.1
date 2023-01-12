@@ -93,12 +93,12 @@ a:hover {
 
 .slider__left-arrow {
   margin-right: 53px;
-  background-image: url('images/left-arrow.svg');
+  background-image: url('../images/left-arrow.svg');
 }
 
 .slider__right-arrow {
   margin-left: 53px;
-  background-image: url('images/right-arrow.svg');
+  background-image: url('../images/right-arrow.svg');
 }
 
 
